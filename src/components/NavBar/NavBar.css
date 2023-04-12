@@ -1,0 +1,24 @@
+#home-nav-bar{
+    margin-top: 4vh;
+}
+
+.nav-list{
+    list-style:inside;
+    background-color: #8742b9a2;
+    width: 80%;
+    border-radius: 25px;
+    margin-left: 10vw;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.nav-list li{
+    margin-top: 1vh;
+}
+
+.nav-list li a{
+    color: #ffff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
