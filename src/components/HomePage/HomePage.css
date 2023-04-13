@@ -1,12 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
 .home-page{
     background-image: url("../../images/r&m.png") ;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 100vh;
-    min-width: 100vw;
+    width: 100vw;
     text-align: center;
     padding-top: 5vh;
+    
 }
 
 h1{
@@ -33,7 +39,8 @@ h1{
 .featured-characters-div{
     margin-left: 35vw;
     margin-top: 5vh;
-    max-width: 100%;
+    width: fit-content;
+  
 }
 
 .featured-characters-div ul {
