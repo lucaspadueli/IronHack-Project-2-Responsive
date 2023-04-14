@@ -9,7 +9,7 @@ const NavBar = () => {
         <ul className="nav-list">
           <li>
             {" "}
-            <Link to="/characters"> List Of Characters </Link>{" "}
+            <Link to="/characters-list"> List Of Characters </Link>{" "}
           </li>
           <li>
             {" "}

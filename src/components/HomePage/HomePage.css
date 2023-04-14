@@ -37,17 +37,17 @@ h1{
   }
 
 .featured-characters-div{
-    margin-left: 35vw;
     margin-top: 5vh;
-    width: fit-content;
-  
+    
+    width: 20%;
 }
 
 .featured-characters-div ul {
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
-   
+   margin: 0 28vw;
+}
+
+.featured-characters-div ul a{
+    width: 50%;
 }
 
 .featured-characters-list img {
