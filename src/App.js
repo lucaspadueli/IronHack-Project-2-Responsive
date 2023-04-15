@@ -4,7 +4,7 @@ import { useEffect,useState } from 'react';
 import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
 import CharactersList from './components/CharactersList/CharactersList';
-
+import HeartFavorite from './components/Favoritos/HeartFavorite';
 function App() {
   const [characters, setCharacters] = useState([]);
   

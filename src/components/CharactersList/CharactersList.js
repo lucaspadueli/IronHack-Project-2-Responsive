@@ -2,12 +2,14 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./CharactersList.css"
 import { useState} from 'react';
-
+import HeartFavorite from '../Favoritos/HeartFavorite';
 
 function CharactersList({characters}) {
+  
 const [filteredCharacters,setFilteredCharacters] = useState(characters);
   const [searchText,setSearchText] = useState('');
 
+ 
   function handleSearch (searchText) {
     if(searchText === ''){
       setFilteredCharacters(characters)
@@ -42,12 +44,9 @@ function handleCategoryChange (e) {
   else if(selectedCategory.toLowerCase()=== "all"){
     filteredSpecies = characters;
   }
+  
   setFilteredCharacters(filteredSpecies);
 }
-
-
-
-
   return (
     <div className="characters-container">
      <div className='list-header'> 
@@ -81,14 +80,16 @@ function handleCategoryChange (e) {
      </div>
      
      
-     
-      <ul className="list-group c-list">
+     <ul className="list-group c-list">
       
         {!filteredCharacters ? <div> Loading... </div> : filteredCharacters.map((character) => {
           return (
+            <div key = {character.id} className='container-chars'> 
+            <div> 
             <li key = {character.id} className="list-group-item list-group-item-success">
               {" "}
-              <img src = {character.image} alt = {`${character.name}`}/>
+              <div>
+              <img className='char-pic' src = {character.image} alt = {`${character.name}`}/>
               <h4> {character.name} </h4>
               <p> Species: {character.species}</p>
               <Link to = {`/characters/${character.id}`}> <button
@@ -98,11 +99,37 @@ function handleCategoryChange (e) {
               >
                 <span>Show {character.name } </span> <span> Info</span>
               </button> </Link>
+            </div>
+            <div>
+            <HeartFavorite/>
+            </div>
+            
+            
+            
             </li>
+            
+              
+            
+            </div>
+            
+
+
+              
+            
+
+            </div>
+            
           );
         })} 
+        
       </ul>
-    </div>
+
+     
+     
+     </div>
+     
+     
+    
   );
 }
 

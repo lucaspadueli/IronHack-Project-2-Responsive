@@ -7,6 +7,7 @@ import jerryHomeImg from "../../images/jerry-home.jpeg"
 import bethHomeImg from "../../images/beth-home.webp"
 import summerHomeImg from "../../images/summer-home.webp"
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 const HomePage = () => {
 
 return (
@@ -15,6 +16,8 @@ return (
 <h1> The Ultimate Rick and Morty Guide </h1>
     <NavBar /> 
    
+
+
         <h2 className = "h2-home" > Featured Characters</h2>
 
         <div className="featured-characters-div"> 

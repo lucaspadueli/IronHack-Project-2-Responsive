@@ -8,18 +8,21 @@ body, html {
     overflow: auto;
     margin-left: 15vw;
     margin-top: 5vh;
+    
   }
   
   .list-group-item{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 70vw;
-    margin-left: 2vw;
+    margin-left: 10vw;
+    
   }
   
-  .list-group-item img{
-    width: 30vw;
+  .char-pic{
+    width: 40vw;
+    margin-top: 5vh;
   }
 
 #list-h2 {
@@ -88,4 +91,9 @@ color: #FFFFFF;
 
 #search-label{
     color: white;
+}
+
+.container-chars{
+  display: flex;
+  flex-direction: row;
 }
