@@ -3,10 +3,10 @@ body, html {
   }
   
   .c-list{
-    width: fit-content;
+   
     max-height: 70vh;
     overflow: auto;
-    margin-left: 15vw;
+    margin-left: 8vw;
     margin-top: 5vh;
     
   }

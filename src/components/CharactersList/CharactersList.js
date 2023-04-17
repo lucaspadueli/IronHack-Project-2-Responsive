@@ -92,7 +92,7 @@ function handleCategoryChange (e) {
               <img className='char-pic' src = {character.image} alt = {`${character.name}`}/>
               <h4> {character.name} </h4>
               <p> Species: {character.species}</p>
-              <Link to = {`/characters/${character.id}`}> <button
+              <Link to = {`/characters-list/${character.id}`}> <button
                 type="button"
                 className="btn btn-danger"
                 data-bs-toggle="button"

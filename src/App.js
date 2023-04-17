@@ -4,7 +4,8 @@ import { useEffect,useState } from 'react';
 import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
 import CharactersList from './components/CharactersList/CharactersList';
-import HeartFavorite from './components/Favoritos/HeartFavorite';
+import SingleCharacter from './SingleCharacter';
+
 function App() {
   const [characters, setCharacters] = useState([]);
   
@@ -102,6 +103,7 @@ function App() {
     
     <Route path = "/" element = {<HomePage/>}/>
     <Route path = "/characters-list" element = {<CharactersList characters = {characters}/>}/>
+    <Route path = "/characters-list/:charId" element = {<SingleCharacter/>}/> 
     </Routes>
     <Footer/>
     </div>

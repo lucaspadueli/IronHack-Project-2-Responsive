@@ -43,7 +43,7 @@ h1{
 }
 
 .featured-characters-div ul {
-   margin: 0 28vw;
+   margin: 0 15vw;
 }
 
 .featured-characters-div ul a{
@@ -51,15 +51,21 @@ h1{
 }
 
 .featured-characters-list img {
-    width: 25vw;
+    width: 30vw;
     height: 25vh;
-    
+    margin-bottom: 2vh;
+
 }
 
 .list-group a{
     display: flex;
     margin: 2vh;
     border-radius: 25px;
+}
+
+.featured-characters-list li {
+    display: flex;
+    flex-direction: column;
 }
 
 .h2-home{
