@@ -3,7 +3,7 @@ body, html {
   }
   
   .c-list{
-   
+    width: fit-content;
     max-height: 70vh;
     overflow: auto;
     margin-left: 8vw;
@@ -96,4 +96,9 @@ color: #FFFFFF;
 .container-chars{
   display: flex;
   flex-direction: row;
+}
+
+
+.list-group-item-home{
+  margin-left:15vw;
 }

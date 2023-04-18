@@ -1,0 +1,30 @@
+.gallery {
+    text-align: center;
+    background-image: url("../../images/gallery-img-8.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+
+}
+
+.gallery img {
+    width: 40vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    border-radius: 15px;
+}
+
+.gallery h2 {
+    color: whitesmoke;
+    font-family: 'arial narrow', cursive; 
+    font-size: 1.9em;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5vh;
+}
+
+.gallery-buttons{
+    margin-bottom: 3vh;
+    font-size: 0.8em;
+}

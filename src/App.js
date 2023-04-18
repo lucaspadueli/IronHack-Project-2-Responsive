@@ -5,7 +5,8 @@ import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
 import CharactersList from './components/CharactersList/CharactersList';
 import SingleCharacter from './SingleCharacter';
-
+import FeaturedEpisodes from './components/FeaturedEpisodes/FeaturedEpisodes';
+import Gallery from './components/Gallery/Gallery';
 function App() {
   const [characters, setCharacters] = useState([]);
   
@@ -104,6 +105,8 @@ function App() {
     <Route path = "/" element = {<HomePage/>}/>
     <Route path = "/characters-list" element = {<CharactersList characters = {characters}/>}/>
     <Route path = "/characters-list/:charId" element = {<SingleCharacter/>}/> 
+    <Route path = "/featured-episodes" element = {<FeaturedEpisodes/>}/>
+    <Route path = "/gallery" element = {<Gallery/>}/>
     </Routes>
     <Footer/>
     </div>

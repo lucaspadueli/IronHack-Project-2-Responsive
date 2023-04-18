@@ -23,11 +23,11 @@ return (
         <div className="featured-characters-div"> 
         
         <ul className=" list-group featured-characters-list">
-        <Link to = "/characters/1" > <li className="list-group-item">   <img className="home-img" src = {rickHomeImg} alt="rick-home-img"  />Rick </li> </Link> 
-          <Link to = "/characters/2"> <li className="list-group-item">  <img className="home-img" src = {mortyHomeImg} alt = "Morty-home-img"/> Morty </li> </Link>  
-          <Link to = "/characters/5" > <li className="list-group-item"> <img className="home-img" src = {jerryHomeImg} alt = "jerry-home-img" />  Jerry </li> </Link>  
-           <Link to = "/characters/4"> <li className="list-group-item"> <img className="home-img" src = {bethHomeImg} alt = "beth-home-img"/> Beth  </li> </Link> 
-          <Link to = "/characters/3"> <li className="list-group-item"> <img className="home-img" src = {summerHomeImg} alt = "summer-home-img"/> Summer  </li> </Link>  
+        <Link to = "/characters-list/1" > <li className="list-group-item list-group-item-home">   <img className="home-img" src = {rickHomeImg} alt="rick-home-img"  />Rick </li> </Link> 
+          <Link to = "/characters-list/2"> <li className="list-group-item list-group-item-home">  <img className="home-img" src = {mortyHomeImg} alt = "Morty-home-img"/> Morty </li> </Link>  
+          <Link to = "/characters-list/5" > <li className="list-group-item list-group-item-home"> <img className="home-img" src = {jerryHomeImg} alt = "jerry-home-img" />  Jerry </li> </Link>  
+           <Link to = "/characters-list/4"> <li className="list-group-item list-group-item-home"> <img className="home-img" src = {bethHomeImg} alt = "beth-home-img"/> Beth  </li> </Link> 
+          <Link to = "/characters-list/3"> <li className="list-group-item list-group-item-home"> <img className="home-img" src = {summerHomeImg} alt = "summer-home-img"/> Summer  </li> </Link>  
         </ul>
 
         </div>

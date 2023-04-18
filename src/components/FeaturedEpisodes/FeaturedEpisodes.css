@@ -1,0 +1,41 @@
+.featured-episodes-page{
+    text-align: center;
+    background-image: url("../../images/featured-ep-img.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 35vh;
+    
+    }
+    
+    .episode-description {
+        width: 90%;
+        margin: 2vh auto ;
+        font-size: 1em;
+        font-weight: 300;
+        color: rgb(102, 86, 86);
+        background-color: rgba(253, 249, 249,0.8);
+        border-radius: 25px;
+        box-sizing:border-box;
+        padding: 20px;
+    }
+    
+    .episodes-img{
+        width: 80vw;
+        margin-bottom: 0;
+        border-radius: 25px;
+    }
+    
+    .ep-number{
+        font-size: 2em;
+        color: rgb(0, 0, 0);
+        margin-bottom: 2vh;
+    }
+    
+    .featured-ep-buttons{
+        margin-bottom: 4vh;
+    }
+
+    #h1-featured-eps{
+        margin-bottom: 8vh;
+    }
