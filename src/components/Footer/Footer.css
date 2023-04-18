@@ -23,3 +23,20 @@
 .col {
     font-size: 0.7em;
 }
+
+
+@media (min-width: 601px) and (max-width: 992px) {
+
+    .footer-headers{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2.2em;
+        font-weight: 500;
+       }
+
+       .col a{
+        font-size: 1.5em;
+        color: azure;
+        font-family:'Courier New', Courier, monospace ;
+       }
+
+}

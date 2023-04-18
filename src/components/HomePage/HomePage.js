@@ -7,7 +7,7 @@ import jerryHomeImg from "../../images/jerry-home.jpeg"
 import bethHomeImg from "../../images/beth-home.webp"
 import summerHomeImg from "../../images/summer-home.webp"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import '../../medium-style.css';
 const HomePage = () => {
 
 return (

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
   }
 
 .home-page{
@@ -38,12 +39,13 @@ h1{
 
 .featured-characters-div{
     margin-top: 5vh;
-    
+
     width: 20%;
 }
 
 .featured-characters-div ul {
    margin: 0 15vw;
+   
 }
 
 .featured-characters-div ul a{
@@ -51,27 +53,34 @@ h1{
 }
 
 .featured-characters-list img {
-    width: 30vw;
+    width: 50vw;
     height: 25vh;
     margin-bottom: 2vh;
-
+    border-radius: 20px;
 }
 
 .list-group a{
     display: flex;
     margin: 2vh;
     border-radius: 25px;
+    
 }
 
 .featured-characters-list li {
     display: flex;
     flex-direction: column;
+    padding: 7px;
+    margin-left: 6vw;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
 }
 
 .h2-home{
 margin-left: 4vw;
 margin-top: 3vh;
-text-decoration: underline;
+text-decoration: underline;  
 text-decoration-thickness: 1px;
 font-size: 1.9em;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -115,7 +124,16 @@ color: rgb(255, 255, 255);
     color: white;
     }
 
+.list-group-item-home{
+    width: 100vw;
+}
+    
+@media (min-width: 601px) and (max-width: 992px) {
 
-    .list-group-item-home{
-        margin-left: 16vw;
+.featured-characters-div img{
+   border-radius: 25px;
+   height: 33vh;
+   padding: 0;
+}
+
     }

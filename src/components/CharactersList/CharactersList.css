@@ -1,22 +1,24 @@
 body, html {
     height: 100%;
+    width: 100%;
   }
   
   .c-list{
     width: fit-content;
     max-height: 70vh;
     overflow: auto;
-    margin-left: 8vw;
+    margin-left: 6vw;
     margin-top: 5vh;
-    
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .list-group-item{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 70vw;
-    margin-left: 10vw;
+    width: 80vw;
+    padding-left: 8vw;
+    box-sizing: border-box;
     
   }
   
@@ -27,8 +29,9 @@ body, html {
 
 #list-h2 {
     color: #FFFFFF;
-    margin-left: 15vw;
-    font-size:x-large;
+    margin-left: 8vw;
+    font-size:1.2em;
+    font-family: 'Courier New', Courier, monospace;
 }
   
   
@@ -37,13 +40,14 @@ body, html {
     margin-left: 48vw;
   }
   
-  .btn-home{
-   width: 13vw;
+  #btn-list-page{
+   width: 20vw;
    font-size: 0.8em;
-   margin-left: 2vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border-radius: 20px;
+   background-color: #5633e1;
+   color: white;
+   border: 1px solid black;
+   font-family: 'Courier New', Courier, monospace;
   }
   
   
@@ -57,6 +61,8 @@ body, html {
     background-attachment: fixed;
     padding-bottom: 15vh;
     text-align: center;
+    padding-left:7vw;
+    box-sizing: border-box;
   }
   
   
@@ -75,14 +81,16 @@ body, html {
     border-radius: 10px;
     margin-bottom: 1vh;
     margin-left: 3vw;
-    border: 0;
+    border: 1px solid black;
+   
 }
 
 .custom-select{
     width: 30vw;
     border-radius: 10px;
     margin-left: 3vw;
-    border: 0;
+    border: 1px solid black;
+  
 }
 
 .mr-sm-2{
@@ -101,4 +109,52 @@ color: #FFFFFF;
 
 .list-group-item-home{
   margin-left:15vw;
+}
+
+.btn-danger{
+  font-size: 0.6em;
+  width: 40vw;
+  margin-left: 2vw;
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+
+  #btn-list-page{
+    width: 12vw;
+    font-size: 1.1em;
+    margin-left: 15vw;
+    border-radius: 20px;
+    border: 1px solid azure;
+    background-color: #5633e1;
+    color: rgb(188, 242, 242);
+   }
+
+   .container-chars{
+    width: fit-content;
+    margin-left: -22vw;
+   }
+   .char-pic{
+    width: 25vw;
+    border-radius: 20px;
+   }
+   
+   .char-content{
+    margin-left: 18vw;
+   }
+   .list-group-item{
+    padding-left: 21vw;
+    box-sizing: border-box;
+   }
+   .favorite-storage button img{
+    width: 4vw;
+    border-radius: 25px;
+   }
+   .favorite-storage button{
+    border-radius: 25px;
+    border: 1px solid rgb(201, 38, 198);
+   }
+   .btn-danger{
+    font-size: 1.2em;
+    border: 1px solid black;
+   }
 }

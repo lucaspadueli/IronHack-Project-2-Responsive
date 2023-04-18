@@ -52,7 +52,7 @@ function handleCategoryChange (e) {
      <div className='list-header'> 
      <h2 id = "list-h2"> List of Characters: </h2>
       
-      <Link to = "/"> <button className="btn btn-primary btn-home"> Home Page </button> </Link>
+      <Link to = "/"> <button id="btn-list-page"> Home Page </button> </Link>
      </div>
       
      <div>
@@ -85,7 +85,7 @@ function handleCategoryChange (e) {
         {!filteredCharacters ? <div> Loading... </div> : filteredCharacters.map((character) => {
           return (
             <div key = {character.id} className='container-chars'> 
-            <div> 
+            <div className='char-content'> 
             <li key = {character.id} className="list-group-item list-group-item-success">
               {" "}
               <div>
