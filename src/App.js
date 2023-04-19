@@ -7,6 +7,8 @@ import CharactersList from './components/CharactersList/CharactersList';
 import SingleCharacter from './SingleCharacter';
 import FeaturedEpisodes from './components/FeaturedEpisodes/FeaturedEpisodes';
 import Gallery from './components/Gallery/Gallery';
+import NewsPage from './components/NewsPage/NewsPage';
+
 function App() {
   const [characters, setCharacters] = useState([]);
   
@@ -107,6 +109,7 @@ function App() {
     <Route path = "/characters-list/:charId" element = {<SingleCharacter/>}/> 
     <Route path = "/featured-episodes" element = {<FeaturedEpisodes/>}/>
     <Route path = "/gallery" element = {<Gallery/>}/>
+    <Route path = "/news" element = {<NewsPage/>}/>
     </Routes>
     <Footer/>
     </div>
