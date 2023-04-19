@@ -158,3 +158,71 @@ color: #FFFFFF;
     border: 1px solid black;
    }
 }
+
+
+@media (min-width: 993px) {
+
+  #btn-list-page{
+    width: 10vw;
+    height: 6vh;
+    font-size: 1.4em;
+    margin-left: 3vw;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #5633e1;
+    color: rgb(188, 242, 242);
+   }
+
+   
+   .char-pic{
+    width: 25vw;
+    border-radius: 20px;
+    margin-left: 0;
+   }
+   
+   .char-content{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    margin-bottom: 1vh;
+   }
+   .list-group-item{
+    padding-left: 21vw;
+    box-sizing: border-box;
+    
+   }
+   .favorite-storage button img{
+    width: 3.5vw;
+    border-radius: 25px;
+    
+   }
+   .favorite-storage button{
+    border-radius: 25px;
+    border: 1px solid rgb(201, 38, 198);
+    margin-left: 7vw;
+   }
+   .btn-danger{
+    font-size: 1.2em;
+    border: 1px solid black;
+   }
+
+   .list-group-item{
+    width: 50vw;
+    
+   }
+
+   .characters-info{
+    width: 20vw;
+    margin-left: -8vw;
+    
+   }
+   .container-chars{
+    margin-left: 17vw;
+   }
+   #list-h2{
+    margin-left: 25vw;
+    font-size: 2.2em;
+   }
+}

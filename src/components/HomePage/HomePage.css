@@ -139,3 +139,101 @@ color: rgb(255, 255, 255);
 }
 
     }
+
+
+    @media (min-width: 993px) {
+        .featured-characters-div{
+            width: 95%;
+            display: flex;
+            margin-left: 0;
+           }
+            .featured-characters-div ul{
+            display: flex;
+            width: 100%;    
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 7vw;
+            margin-right: 0;
+           }
+        
+        
+           .featured-characters-div ul li {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            height: 90%;
+            padding: 2px;
+            box-sizing: border-box;
+            margin-left: 2vw;
+            margin-bottom: 2vh;
+            margin-top: 3vh;
+            background-color: rgba(201, 117, 219, 0.68);
+            color: azure;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5em;
+            border: 1px solid azure;
+            transition: transform 0.5s ease-out, background-color 0.5s ease-out, box-shadow 0.5s ease-out, transform 0.5s ease-out, background-image 0.5s ease-out, left 0.5s ease-out, bottom 0.5s ease-out;
+          }
+          
+          .featured-characters-div ul li:hover {
+            transform: scale(1.1) rotate(15deg);
+            background-color: #45e72c;
+            box-shadow: 10px 10px 15px #000000c5;
+            background-image: linear-gradient(to bottom, #1cdc2675, #e128b0bd);
+            position: relative;
+            left: 10px;
+            bottom: 3vh;
+          }
+
+           .featured-characters-div ul li:hover::before{
+            content: "Show information";
+            font-size: 1em;
+           }
+
+           .featured-characters-div ul a{
+            margin: 0;
+            width: fit-content;
+            display: flex;
+           }
+          
+           .h2-home{
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2.5em;
+            margin-bottom: 4vh;
+            margin-top: 8vh;
+           }
+           .about-home{
+           background-color: rgba(201, 117, 219, 0.68);
+           width: 48%;
+           margin: 0 auto;
+           }
+           .about-home p{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.4em;
+            color: azure;
+            width: 60%;
+            margin: 0 auto;
+            padding: 3vh;
+           }
+           .back-top-btn{
+            margin-top: 3vh;
+            width: 15vw;
+            height: 8vh;
+            padding:10px;
+            box-sizing: border-box;
+            border: 1px solid white;
+            background-color: rgba(201, 117, 219, 0.68);
+            font-size: 1.5em;
+            font-family: 'Courier New', Courier, monospace;
+           }
+           .featured-characters-div img{
+            border-radius: 25px;
+            height: 29vh;
+            padding: 0;
+            width: 13vw;
+            margin-top: 4px;
+         }
+           
+      }
