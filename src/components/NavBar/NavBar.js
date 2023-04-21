@@ -21,7 +21,7 @@ const NavBar = () => {
           </li>
           <li>
             {" "}
-            <Link to="/news"> News </Link>{" "}
+            <Link to="/curiosities"> Curiosities </Link>{" "}
           </li>
         </ul>
       </nav>

@@ -71,7 +71,7 @@
     
     .nav-list li {
         margin-left: 4vw;
-        font-size: 1.2em;
+        font-size: 1.3em;
         font-family:'Times New Roman', Times, serif;
         display: flex;
         flex-direction: row;
@@ -88,4 +88,5 @@
         bottom: 2vh;
         color: rgb(39, 221, 42);
     }
+   
 }
