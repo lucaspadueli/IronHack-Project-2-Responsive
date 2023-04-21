@@ -1,6 +1,1 @@
-/characters-list/* /characters-list/:splat 200
-/featured-episodes/* /featured-episodes/:splat 200
-/gallery/* /gallery/:splat 200
-/curiosities/* /curiosities/:splat 200
 /* /index.html 200
-/*    /index.html   200
