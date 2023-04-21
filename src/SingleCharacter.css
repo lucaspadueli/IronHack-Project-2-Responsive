@@ -90,7 +90,8 @@ a{
 
 
 .list-group-single{
-    margin-left: 30vw;
+    margin-left: 8vw;
+    margin-top: 2vh;
 }
 .list-group-item-single{
     font-family: 'Courier New', Courier, monospace;
