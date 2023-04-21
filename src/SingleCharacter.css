@@ -20,7 +20,7 @@ margin-left: 8vw;
 }
 
 .card {
-    background-image: url("./images/single-char.jpg");
+    background-image: url("./images//single-char.jpg");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
