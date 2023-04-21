@@ -20,3 +20,8 @@ We hope that everyone who likes the series and even those who do not know it, ca
 Thank you very much
 
 Lucas and André**
+
+
+[LINK WEBSITE](https://ultimateguiderickandmorty.netlify.app/)
+
+[LINK SLIDES](https://docs.google.com/presentation/d/1Xu5g1XzN7__UMB5Duzj4pgMTnVS_FeeMoKDTNWM0Rok/edit?usp=sharing)
