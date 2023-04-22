@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+![](./images/featured-5.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#WELCOME TO OUR WEBSITE ABOUT RICKY AND MORTY!!
 
-In the project directory, you can run:
+##Here you can see a lot of information, photos from all characters.
 
-### `npm start`
+##Our project was build using react and getting information froma free API. Also, this website is responsive in 3 differetens size (Desktop, Tablets and celphones).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**About the project, we have the _Home Page_ with a navbar, which leads to 4 more pages. We put the most famous characters, and a small text presenting the series, for those who don't know it. And in the end, we have a footer, which along with the navbar, is on all the other pages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+On the page _List of Characters_, we have a search bar, which takes you to all the characters who participated in the series, even those who appeared in a single episode. We have a filter, which we can search only for humans, alies and etc. we put the option of you favorite your favorite characters, using the local storage.
 
-### `npm test`
+On the page _Featured Episodes_, we put the 5 best episodes chosen by the critics.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+On the _Gallery Page_, we have some photos throughout the series and on the _News Page_, we have some news about the series.
 
-### `npm run build`
+We hope that everyone who likes the series and even those who do not know it, can take advantage of this website, and can know a little more about this series that is famous all over the world.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Thank you very much
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Lucas and André**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+[LINK WEBSITE](https://ultimateguiderickandmorty.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[LINK SLIDES](https://docs.google.com/presentation/d/1Xu5g1XzN7__UMB5Duzj4pgMTnVS_FeeMoKDTNWM0Rok/edit?usp=sharing)
