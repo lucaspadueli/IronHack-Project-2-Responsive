@@ -7,6 +7,7 @@ import SingleCharacter from './SingleCharacter';
 import FeaturedEpisodes from './components/FeaturedEpisodes/FeaturedEpisodes';
 import Gallery from './components/Gallery/Gallery';
 import Curiosities from './components/Curiosities/Curiosities';
+
 function App() {
   
 
@@ -14,6 +15,7 @@ function App() {
 
 
 
+  
   return (
     <div className="App">
     <Routes> 
@@ -24,7 +26,6 @@ function App() {
     <Route path = "/featured-episodes" element = {<FeaturedEpisodes/>}/>
     <Route path = "/gallery" element = {<Gallery/>}/>
     <Route path = "curiosities" element = {<Curiosities/>} />
-    
     </Routes>
     <Footer/>
     </div>
