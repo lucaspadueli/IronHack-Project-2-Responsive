@@ -5,7 +5,7 @@
 
 ## Here you can see a lot of information, photos from all characters.
 
-## Our project was build using react and getting information from a free API. Also, this website is responsive in 3 differnts size (Desktop, Tablets and cellphones).
+## Our project was build using react and getting information from a free API. Also, this website is responsive in 3 diferents size (Desktop, Tablets and cellphones).
 
 #### About the project, we have the _Home Page_ with a navbar, which leads to 4 more pages. We put the most famous characters, and a small text presenting the series, for those who don't know it. And in the end, we have a footer, which along with the navbar, is on all the other pages.
 
