@@ -9,7 +9,7 @@
 }
 
 .gallery img {
-    width: 40vw;
+    width: 80vw;
     margin-left: 2vw;
     margin-top: 2vh;
     border-radius: 15px;
@@ -27,4 +27,25 @@
 .gallery-buttons{
     margin-bottom: 3vh;
     font-size: 0.8em;
+}
+
+
+@media(min-width: 993px){
+    .gallery-buttons{
+        margin-bottom: 3vh;
+        font-size: 1.2em;
+        border: 1px solid rgb(255, 255, 255);
+    }
+    .gallery img {
+        width: 30vw;
+        margin-left: 2vw;
+        margin-top: 2vh;
+        border-radius: 15px;
+    }
+
+    .gallery img:hover{
+        transform: scale(1.4);
+        transition: transform 0.2s ease-in-out;
+
+    }
 }

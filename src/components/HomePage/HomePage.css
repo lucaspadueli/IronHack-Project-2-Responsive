@@ -163,7 +163,7 @@ color: rgb(255, 255, 255);
             flex-direction: column;
             width: fit-content;
             height: 90%;
-            padding: 2px;
+            padding: 0;
             box-sizing: border-box;
             margin-left: 2vw;
             margin-bottom: 2vh;
@@ -200,9 +200,10 @@ color: rgb(255, 255, 255);
            .h2-home{
             text-decoration: none;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 2.5em;
+            font-size: 2.8em;
             margin-bottom: 4vh;
             margin-top: 8vh;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.966);
            }
            .about-home{
            background-color: rgba(201, 117, 219, 0.68);
@@ -211,7 +212,7 @@ color: rgb(255, 255, 255);
            }
            .about-home p{
             font-family: 'Courier New', Courier, monospace;
-            font-size: 1.4em;
+            font-size: 1.6em;
             color: azure;
             width: 60%;
             margin: 0 auto;
@@ -219,21 +220,21 @@ color: rgb(255, 255, 255);
            }
            .back-top-btn{
             margin-top: 3vh;
-            width: 15vw;
+            width: 20vw;
             height: 8vh;
             padding:10px;
             box-sizing: border-box;
-            border: 1px solid white;
+            border: 1px solid rgb(0, 0, 0);
             background-color: rgba(201, 117, 219, 0.68);
             font-size: 1.5em;
             font-family: 'Courier New', Courier, monospace;
            }
            .featured-characters-div img{
             border-radius: 25px;
-            height: 29vh;
-            padding: 0;
+            height: 32vh;
             width: 13vw;
             margin-top: 4px;
+            padding: 0;
          }
            
       }

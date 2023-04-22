@@ -20,23 +20,96 @@ margin-left: 8vw;
 }
 
 .card {
-    background-image: url("./images/single-char.jpg");
+    background-image: url("./images//single-char.jpg");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
     padding-top: 10vh;
 }
+.card a{
+    width: fit-content;
+   
+}
 
 .btn-primary{
     background-color:#13c33f ;
-    width:30vw;
-    margin-left: 0vw;
+    width:26vw;
+    margin-left: 7vw;
     border: 1px solid rgb(168, 168, 168);
     border-radius: 20px;
     margin-bottom: 1vh;
+    font-size: 0.7em
 }
 
 a{
     text-decoration: none;
 }
 
+.list-group-item-single{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 0.8em;
+    width: 45vw;
+    margin-left: 20vw;
+}
+
+@media (min-width: 601px) and (max-width: 992px){
+
+
+.list-group-single{
+    margin-left: 10vw;
+}
+
+
+.list-group-item-single{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.btn-primary{
+    width: 18vw;
+    margin-left: 0;
+}
+.card a{
+    width: fit-content;
+    margin-left: 13vw;
+}
+
+
+
+}
+
+
+
+
+
+@media (min-width: 993px) { 
+
+
+.list-group-single{
+    margin-left: 8vw;
+    margin-top: 2vh;
+}
+.list-group-item-single{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.btn-primary{
+    width: 10vw;
+    margin-left: 0;
+}
+.card a{
+    width: fit-content;
+    margin-left: 13vw;
+}
+
+
+
+
+}

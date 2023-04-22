@@ -43,22 +43,22 @@ return (
             <h2 className="card-title"> {character.name} </h2>
           </div>
           <ul className="list-group list-group-flush list-group-single">
-            <li className="list-group-item">
+            <li className="list-group-item list-group-item-single">
               {" "}
               Species: {character.species}{" "}
             </li>
 
-            <li className="list-group-item"> Gender: {character.gender} </li>
-            <li className="list-group-item">
+            <li className="list-group-item list-group-item-single"> Gender: {character.gender} </li>
+            <li className="list-group-item list-group-item-single">
               {" "}
               Origin: {character.origin.name}{" "}
             </li>
-            <li className="list-group-item">
+            <li className="list-group-item list-group-item-single">
               {" "}
               Location: {character.location.name}
             </li>
-            <li className="list-group-item"> Status: {character.status}</li>
-            <li className="list-group-item">
+            <li className="list-group-item list-group-item-single"> Status: {character.status}</li>
+            <li className="list-group-item list-group-item-single">
               {" "}
               Created: {character.created}{" "}
             </li>

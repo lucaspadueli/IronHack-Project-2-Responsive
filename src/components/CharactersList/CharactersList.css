@@ -6,27 +6,22 @@ body, html {
   .c-list{
     width: fit-content;
     max-height: 70vh;
-    overflow: auto;
+    overflow: auto;  
     margin-left: 6vw;
     margin-top: 5vh;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
   }
   
-  .list-group-item{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 80vw;
-    padding-left: 8vw;
-    box-sizing: border-box;
-    
-  }
+ 
   
   .char-pic{
     width: 40vw;
     margin-top: 5vh;
   }
-
+.heart-picture{
+  width: 3vw;
+}
 #list-h2 {
     color: #FFFFFF;
     margin-left: 8vw;
@@ -66,7 +61,6 @@ body, html {
   }
   
   
-  
   .list-header{
     display: flex;
     flex-direction: row-reverse;
@@ -104,6 +98,8 @@ color: #FFFFFF;
 .container-chars{
   display: flex;
   flex-direction: row;
+  margin-left: 10vw;
+  border-radius: 25px;
 }
 
 
@@ -115,6 +111,22 @@ color: #FFFFFF;
   font-size: 0.6em;
   width: 40vw;
   margin-left: 2vw;
+}
+.char-content{
+  width: 50vw;
+  border-radius: 25px;
+  margin-left: 5vw;
+  margin-bottom: 1vh;
+  font-size: 1em;
+}
+
+.favorite-storage{
+  margin-left: 5vw;
+}
+
+.char-content li h4{
+  font-size: 1.2em;
+  margin-top: 2vh;
 }
 
 @media (min-width: 601px) and (max-width: 992px) {
@@ -139,7 +151,8 @@ color: #FFFFFF;
    }
    
    .char-content{
-    margin-left: 18vw;
+    margin-left: 38vw;
+    
    }
    .list-group-item{
     padding-left: 21vw;
@@ -152,10 +165,16 @@ color: #FFFFFF;
    .favorite-storage button{
     border-radius: 25px;
     border: 1px solid rgb(201, 38, 198);
+    margin-left: -15vw;
    }
    .btn-danger{
     font-size: 1.2em;
+    width: 20vw;
+    margin-left: 8vw;
     border: 1px solid black;
+   }
+   .characters-info{
+    margin-left: -15vw;
    }
 }
 
@@ -175,54 +194,73 @@ color: #FFFFFF;
 
    
    .char-pic{
-    width: 25vw;
+    width: 17vw;
     border-radius: 20px;
     margin-left: 0;
    }
    
    .char-content{
     width: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 45px;
     margin-bottom: 1vh;
    }
+   .char-content li{
+    display: flex;
+justify-content: center;
+   }
    .list-group-item{
-    padding-left: 21vw;
+    padding-left: 18vw;
+    
     box-sizing: border-box;
     
    }
    .favorite-storage button img{
-    width: 3.5vw;
+    width: 3vw;
     border-radius: 25px;
     
    }
    .favorite-storage button{
     border-radius: 25px;
     border: 1px solid rgb(201, 38, 198);
-    margin-left: 7vw;
+    
    }
    .btn-danger{
     font-size: 1.2em;
     border: 1px solid black;
+    width: fit-content;
    }
 
    .list-group-item{
-    width: 50vw;
+    width: 40vw;
     
    }
 
    .characters-info{
-    width: 20vw;
-    margin-left: -8vw;
+    width: fit-content;
+    margin-left: -10vw;
     
    }
    .container-chars{
-    margin-left: 17vw;
+    margin-left: 9vw;
    }
    #list-h2{
-    margin-left: 25vw;
+    margin-left: 16vw;
     font-size: 2.2em;
    }
+   .list-inputs{
+    width:fit-content ;
+    margin-left: 30vw;
+   }
+   .list-inputs input{
+    width: 15vw;
+   }
+   .list-inputs select{
+    width: 15vw;
+   }
+   .favorite-session{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20vh;
+   }
+   
 }
