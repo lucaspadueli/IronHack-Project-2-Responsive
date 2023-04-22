@@ -7,7 +7,7 @@
 
 ## Our project was build using react and getting information from a free API. Also, this website is responsive in 3 differnts size (Desktop, Tablets and cellphones).
 
-** About the project, we have the _Home Page_ with a navbar, which leads to 4 more pages. We put the most famous characters, and a small text presenting the series, for those who don't know it. And in the end, we have a footer, which along with the navbar, is on all the other pages.
+#### About the project, we have the _Home Page_ with a navbar, which leads to 4 more pages. We put the most famous characters, and a small text presenting the series, for those who don't know it. And in the end, we have a footer, which along with the navbar, is on all the other pages.
 
 On the page _List of Characters_, we have a search bar, which takes you to all the characters who participated in the series, even those who appeared in a single episode. We have a filter, which we can search only for humans, aliens and etc. we put the option of you favorite your favorite characters, using the local storage.
 
@@ -19,7 +19,7 @@ We hope that everyone who likes the series and even those who do not know it, ca
 
 Thank you very much
 
-Lucas and André**
+Lucas and André
 
 
 [LINK WEBSITE](https://ultimateguiderickandmorty.netlify.app/)
